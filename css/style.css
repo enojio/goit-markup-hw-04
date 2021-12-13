@@ -73,7 +73,14 @@ header .logo {
 .links li:last-child a {
   margin-right: 0%;
 }
-
+.contacts-icon {
+  fill: #757575;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.contacts-icon:hover {
+  fill: #2196f3;
+}
 .contacts a:hover,
 .contacts a:focus,
 .links a:hover,
@@ -84,6 +91,13 @@ header .logo {
 .hero {
   padding: 200px 0;
   background: var(--hero-color);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/hero.jpg);
+  max-width: 1600px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+  background-size: cover;
 }
 
 .hero-title {
@@ -117,6 +131,13 @@ header .logo {
   background: var(--btn-hover);
 }
 /* Features */
+.features-pic {
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  height: 120px;
+  padding: 25px 100px;
+  margin-bottom: 30px;
+}
 .feature-section {
   padding-top: 94px;
 }
@@ -211,6 +232,31 @@ header .logo {
   text-align: center;
   letter-spacing: 0.03em;
 }
+.worker-social {
+  display: flex;
+  margin-top: 16px;
+  justify-content: space-between;
+}
+
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: #afb1b8;
+}
+
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--active-color);
+  color: var(--white-color);
+}
+
+.social-network {
+  fill: currentColor;
+}
 /* Footer */
 footer {
   padding-top: 60px;
@@ -286,6 +332,12 @@ footer a {
   margin-right: 30px;
   margin-bottom: 30px;
   text-align: start;
+  border: 1px solid #eeeeee;
+}
+.portfolio-item:hover {
+  box-sizing: border-box;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .portfolio-item:nth-child(3n) {
   margin-right: 0px;
