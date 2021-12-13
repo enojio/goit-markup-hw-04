@@ -78,13 +78,14 @@ header .logo {
   margin-right: 10px;
   vertical-align: middle;
 }
-.contacts-icon:hover {
+.contacts-icon:hover,
+.contacts-icon:focus {
   fill: #2196f3;
 }
 .contacts a:hover,
 .contacts a:focus,
 .links a:hover,
-.links a:hover {
+.links a:focus {
   color: var(--active-color);
 }
 /* Hero */
