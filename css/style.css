@@ -78,8 +78,13 @@ header .logo {
   margin-right: 10px;
   vertical-align: middle;
 }
+
 .contacts-icon:hover,
 .contacts-icon:focus {
+  fill: #2196f3;
+}
+.contact-mail:hover .contacts-icon,
+.contact-mail:focus .contacts-icon {
   fill: #2196f3;
 }
 .contacts a:hover,
